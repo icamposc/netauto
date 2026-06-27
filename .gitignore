@@ -1,0 +1,41 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# === Automacao de rede (Ansible/Netmiko/etc.) ===
+*.retry
+inventory_secrets*
+hosts_secrets*
+
+# === Credenciais e segredos ===
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+credentials*.json
+token.json
+secrets.*
+
+# === IDE / editores ===
+.vscode/
+.idea/
+*.swp
+
+# === SO ===
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+
+# === Logs ===
+*.log
